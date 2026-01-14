@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+    font-family: Tahoma;
+}
+
+#menu {
+    width: 640px;
+    height: 380px;
+    background: rgba(10, 10, 15, 0.75);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    margin: 90px auto;
+    color: white;
+}
+
+.header {
+    padding: 12px;
+}
+
+.title {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.tab {
+    opacity: 0.5;
+    padding-bottom: 4px;
+}
+
+.tab.active {
+    opacity: 1;
+    border-bottom: 2px solid #8f5bff;
+}
+
+.content {
+    padding: 20px;
+}
+
+.btn {
+    padding: 12px;
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 8px;
+}
+
+.btn.active {
+    background: rgba(143,91,255,0.55);
+}
